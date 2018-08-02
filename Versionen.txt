@@ -1,0 +1,59 @@
+F:\Desktop\thales\myapp>java -version
+java version "1.8.0_181"
+Java(TM) SE Runtime Environment (build 1.8.0_181-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
+
+F:\Desktop\thales\myapp>npm list -depth=0
+myapp@0.0.1 F:\Desktop\thales\myapp
++-- @angular/animations@5.2.11
++-- @angular/common@5.2.11
++-- @angular/compiler@5.2.11
++-- @angular/compiler-cli@5.2.11
++-- @angular/core@5.2.11
++-- @angular/forms@5.2.11
++-- @angular/http@5.2.11
++-- @angular/platform-browser@5.2.11
++-- @angular/platform-browser-dynamic@5.2.11
++-- @ionic-native/core@4.10.1
++-- @ionic-native/qr-scanner@4.11.0
++-- @ionic-native/splash-screen@4.10.1
++-- @ionic-native/status-bar@4.10.1
++-- @ionic/app-scripts@3.1.11
++-- @ionic/storage@2.1.3
++-- cordova-android@7.0.0
++-- cordova-browser@5.0.3
++-- cordova-plugin-device@2.0.2
++-- cordova-plugin-ionic-keyboard@2.1.2
++-- cordova-plugin-ionic-webview@2.0.2
++-- cordova-plugin-qrscanner@2.6.0
++-- cordova-plugin-splashscreen@5.0.2
++-- cordova-plugin-whitelist@1.3.3
++-- ionic-angular@3.9.2
++-- ionicons@3.0.0
++-- rxjs@5.5.11
++-- sw-toolbox@3.6.0
++-- typescript@2.6.2
+`-- zone.js@0.8.26
+
+
+Global
++-- cordova@8.0.0
+`-- ionic@4.0.2
+
+Android Studio project detected
+ANDROID_HOME=C:\Users\stefan\AppData\Local\Android\sdk
+JAVA_HOME=C:\Program Files\java\jdk1.8.0_181
+studio
+Subproject Path: CordovaLib
+Subproject Path: app
+Starting a Gradle Daemon (subsequent builds will be faster)
+publishNonDefault is deprecated and has no effect anymore. All variants are now
+published.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' in
+stead.
+The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
+moved in Gradle 5.0. Please use Task.doLast(Action) instead.
+        at build_2cwy97c77xhzqlj3tk8z0b6nm.run(F:\Desktop\thales\myapp\platforms
+\android\app\build.gradle:144)
+
+sdk build tools 28.0.1

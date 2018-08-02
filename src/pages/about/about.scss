@@ -1,3 +1,43 @@
-page-about {
+ion-content{
+  background-color: transparent;
+}
+div.screen{
+  height: 40%;
+  width: 100%;
+  opacity: 0.0;
+}
 
+p.log{
+  word-wrap:break-word;
+}
+
+div.field{
+  border: 1px solid #ff0000;
+  text-align: center;
+  font-size: 1em;
+  height: 100%;
+  min-height:100%;
+  width: 100%;
+  opacity: 1;
+}
+
+div.logdiv
+{
+  width: 100%;
+  background: white;
+}
+
+div.scannbox
+{
+  border: 1px solid #ff0000;
+  width:  200px;
+  heigh: 200px;
+  min-height: 199px;
+  min-width: 199px;
+
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-100px;/* half width*/
+  margin-top:-100px;/* half height*/
 }

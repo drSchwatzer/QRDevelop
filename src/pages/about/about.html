@@ -7,7 +7,25 @@
 </ion-header>
 
 <ion-content padding>
-  <button ion-button (click)="scan()">
-    Click me!
-  </button>
+  <div class="field">
+    <button (click)="prepare()">prepare</button>
+    <button (click)="startscann()">start</button>
+    <button (click)="stopscann()">stop</button>
+    <button (click)="showscreen()">show</button>
+    <button (click)="hidescreen()">hide</button>
+    <button (click)="toggleLight()">toggle Light</button>
+    <button (click)="toogleCamera()">toggle Camera</button>
+    <button (click)="showstatus()"> status </button>
+    <div class="screen">
+
+    </div>
+
+    <div class="logdiv" id="logdiv">
+      <p class="log" id="log"> </p>
+    </div>
+
+
+  </div>
+  <div class="scannbox">
+  </div>
 </ion-content>
